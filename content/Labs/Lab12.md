@@ -1,13 +1,41 @@
 #labs
 
-# Lab 12
+# Lab 12 — Static Routing
+
+> [!abstract] Суть лабы
+> Настроить статическую маршрутизацию между 4 роутерами (R1–R4): основные маршруты, суммарный маршрут (supernet), default route и резервные floating static routes через R4 с повышенным AD.
+
+## Source
+
+https://drive.google.com/file/d/15k_Rcc4Vne6Um-K9zvLq7TfP2kWNz6E9/view
+
+## Topic
+
+- `Static Routes`
+- `Floating Static Routes (резервные маршруты, AD=2)`
+- `Summary Routes / Supernet`
+- `Default Route`
+- `Telnet`
+
+## Related Book Modules
+
+- [[Book 2. Switching, Routing, and Wireless Essentials/15 - IP Static Routing/15 - IP Static Routing|Book 2 Module 15 — IP Static Routing]]
+- [[Book 2. Switching, Routing, and Wireless Essentials/16 - Troubleshoot Static and Default Routes/16 - Troubleshoot Static and Default Routes|Book 2 Module 16 — Troubleshoot Static and Default Routes]]
+
+## Цель
+
+- Настроить IP на R1, R2, R3, R4 и конечных устройствах
+- Подключиться к роутерам через цепочку Telnet
+- Настроить статические маршруты к Canteen (172.16.1.0/24)
+- Вычислить и настроить supernet `192.168.0.0/22` для обратного пути
+- Настроить default route на R3 и распространить через RIP/статику
+- Добавить резервные маршруты через R4 с AD=2
+- Скачать файл с FTP сервера
+
+---
 
 > [!abstract] Как читать этот lab
-> Здесь всё оставлено **по PART**, как в задании.
-> Я не менял логику ответов, а только разложил их по полочкам:
-> что сделать, какие команды ввести, что это даёт и что должно получиться.
-
-## Ссылка на файл lab
+> Всё разложено по PART, как в задании. Что сделать → какие команды → что должно получиться.
 
 https://drive.google.com/file/d/15k_Rcc4Vne6Um-K9zvLq7TfP2kWNz6E9/view
 

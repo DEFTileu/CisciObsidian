@@ -1,4 +1,26 @@
+#labs
+
+# Lab 1 — Cisco Basic IOS Configurations
+
+## Source
+
 https://drive.google.com/file/d/12JEAVTPlrxK2Xl1zhe7bP7jYF51hOLbt/view
+
+## Topic
+
+- `Basic IOS Configuration`
+- `Switch SVI setup`
+- `Password recovery`
+
+## Related Book Modules
+
+- [[Book 1. Introduction to Networks/02 - Basic Switch and End Devices Configuration/02 - Basic Switch and End Devices Configuration|Book 1 Module 2 — Basic Switch and End Devices Configuration]]
+- [[Book 2. Switching, Routing, and Wireless Essentials/01 - Basic Device Configuration/01 - Basic Device Configuration|Book 2 Module 1 — Basic Device Configuration]]
+
+> [!tip] Memory Hook
+> Эта лаба — фундамент. Всё что делается с switches (hostname, passwords, SVI, banner) повторяется в каждой следующей лабке.
+
+---
 
 <br>
 

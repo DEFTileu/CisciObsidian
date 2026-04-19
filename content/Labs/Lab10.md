@@ -1,4 +1,37 @@
-# Lab 1 — Week 1: VLAN, Inter-VLAN Routing, DHCP, Relay Agent
+#labs
+
+# Lab 10 — VLAN + Inter-VLAN Routing + DHCP + Relay Agent
+
+> [!abstract] Суть лабы
+> Настроить VLANы на трёх свитчах (Faculty/Students/Admin/MGMT), Inter-VLAN Routing через Router-on-a-Stick на R1, DHCP сервер на R2 с Relay Agent на R1 для разных подсетей. Проверить полную связность.
+
+## Source
+
+Packet Tracer — задание преподавателя (Week 1)
+
+## Topic
+
+- `VLANs (создание, access/trunk порты)`
+- `Inter-VLAN Routing — Router-on-a-Stick`
+- `DHCP Server + Relay Agent (ip helper-address)`
+- `RIP v2`
+
+## Related Book Modules
+
+- [[Book 2. Switching, Routing, and Wireless Essentials/03 - VLANs/03 - VLANs|Book 2 Module 3 — VLANs]]
+- [[Book 2. Switching, Routing, and Wireless Essentials/04 - Inter-VLAN Routing/04 - Inter-VLAN Routing|Book 2 Module 4 — Inter-VLAN Routing]]
+- [[Book 2. Switching, Routing, and Wireless Essentials/07 - DHCPv4/07 - DHCPv4|Book 2 Module 7 — DHCPv4]]
+
+## Цель
+
+- Создать VLANы 10/20/30/99 на S1, S2, Sw0 и настроить access/trunk порты
+- Настроить Router-on-a-Stick субинтерфейсы на R1 (g0/0.10, .20, .30, .99)
+- Настроить DHCP пулы на R2 для каждого VLAN
+- Настроить `ip helper-address` на R1 для пересылки DHCP запросов к R2
+- Настроить RIP v2 на R1 и R2
+- Проверить получение IP через DHCP на конечных устройствах
+
+---
 
 > [!abstract] Суть лабы Настроить VLAN на свитчах, Inter-VLAN Routing через Router-on-a-Stick на R1, DHCP сервер на R2 с Relay Agent на R1. Проверить связность между всеми устройствами.
 

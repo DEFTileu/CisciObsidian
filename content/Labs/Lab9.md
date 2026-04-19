@@ -1,10 +1,39 @@
+#labs
 
-R1-19%
-R2-38%
-R3-66%
-R1 — HSRP (Active router) - 76%
-R2 — HSRP (Standby router) - 85%
-pc - ip configuartion - 100%
+# Lab 9 — HSRP (First Hop Redundancy Protocol)
+
+> [!abstract] Суть лабы
+> Настроить HSRP между двумя роутерами (R1 — Active, R2 — Standby) так, чтобы клиент использовал виртуальный IP как шлюз. Если R1 падает — R2 автоматически берёт на себя трафик. Плюс OSPF для динамической маршрутизации.
+
+## Source
+
+Packet Tracer — задание преподавателя
+
+## Topic
+
+- `HSRP (Active / Standby / Virtual IP)`
+- `FHRP`
+- `OSPF`
+- `Default Route`
+
+## Related Book Modules
+
+- [[Book 2. Switching, Routing, and Wireless Essentials/09 - FHRP Concepts/09 - FHRP Concepts|Book 2 Module 9 — FHRP Concepts]]
+
+## Цель
+
+- Настроить базовые IP адреса на R1, R2, R3, ISP
+- Настроить HSRPv2 на R1 (Active, priority 102) и R2 (Standby, priority 101)
+- Настроить OSPF для обмена маршрутами
+- Проверить переключение через `show standby brief`
+
+---
+
+## Прогресс выполнения
+
+R1 — 19% → R2 — 38% → R3 — 66% → R1 HSRP Active — 76% → R2 HSRP Standby — 85% → PC config — 100%
+
+---
 
 # HSRP Lab — First Hop Redundancy Protocol
 

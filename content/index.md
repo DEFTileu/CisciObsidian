@@ -12,6 +12,10 @@
 - [[Book 1. Introduction to Networks/01 - Networking Today/01 - Networking Today|Book 1 - Introduction to Networks]]
 - [[Book 2. Switching, Routing, and Wireless Essentials/01 - Basic Device Configuration/01 - Basic Device Configuration|Book 2 - Switching, Routing, and Wireless Essentials]]
 
+
+## Final Exam on NetAcad
+- [Link to answers](https://itexamanswers.net/ccna-2-v7-0-final-exam-answers-full-switching-routing-and-wireless-essentials.html)
+
 ## Practice
 
 - [[Labs/Learned Book topics and finished labs|Labs - Progress and Topics]]
@@ -23,7 +27,7 @@
 - [[Labs/Lab6|Lab 6]]
 - [[Labs/Lab7|Lab 7]]
 - [[Labs/Lab8|Lab 8]]
-- [[Lab9|Lab9]]
+- [[Labs/Lab9|Lab 9]]
 - [[Labs/Lab10|Lab 10]]
 - [[Labs/Lab11|Lab 11]]
 - [[Labs/Lab12|Lab 12]]
