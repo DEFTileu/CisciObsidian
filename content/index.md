@@ -17,7 +17,16 @@
 - [[Labs/Learned Book topics and finished labs|Labs - Progress and Topics]]
 - [[Labs/Lab1|Lab 1]]
 - [[Labs/Lab2|Lab 2]]
+- [[Labs/Lab3|Lab 3]]
 - [[Labs/Lab4|Lab 4]]
+- [[Labs/Lab5|Lab 5]]
+- [[Labs/Lab6|Lab 6]]
+- [[Labs/Lab7|Lab 7]]
+- [[Labs/Lab8|Lab 8]]
+- [[Lab9|Lab9]]
+- [[Labs/Lab10|Lab 10]]
+- [[Labs/Lab11|Lab 11]]
+- [[Labs/Lab12|Lab 12]]
 
 ## Other Sections
 
